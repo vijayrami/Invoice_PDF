@@ -1,0 +1,22 @@
+{
+    "name": "iflair/module-invoice",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Iflair\\Invoice\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
